@@ -1,7 +1,6 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-  
 
 test('Login com sucesso @login', async ({ page }) => {
   await page.goto('https://automationpratice.com.br/');
